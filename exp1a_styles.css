@@ -1,0 +1,90 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.p1 {
+    font-size: x-small;
+}
+
+.collge-info {
+    margin-left: 20px;
+}
+
+nav {
+    background-color: #444;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner img{
+   max-width: 100%;
+   height: auto;
+  }
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    list-style: none;
+    padding: 10px;
+}
+.dropdown:hover .submenu{
+    display: block;
+}
+.submenu li{
+    margin: 5px 0;
+}
+li a:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    margin-top: auto;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.social-media{
+    height: 20px;
+    width: 0 5px;
+}
